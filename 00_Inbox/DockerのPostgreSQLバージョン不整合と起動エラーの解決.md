@@ -62,6 +62,7 @@ services:
 docker compose down -v
 ```
 - これでDockerの中にあった「ライブラリの保存場所（node_modules）」を完全に消去するため、色々入れ直さないといけない。
+- データベースの中身も削除されるのでマイグレーションをし直す
 
 ```bash title:コンテナビルドし直し
 docker compose build
