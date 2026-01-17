@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "139f80213cbb12ea",
@@ -200,7 +199,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -219,7 +218,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bb591a8ad53b938c",
+  "active": "443014ae66d97a26",
   "lastOpenFiles": [
     "10_TIL/Rails",
     "99_System/Templates/TIL基本フォーマット.md.md",

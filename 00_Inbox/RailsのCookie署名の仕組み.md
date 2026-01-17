@@ -2,14 +2,13 @@
 date: 2026-01-17 17:55
 tags:
   - TIL
-  - Status/書きかけ
+  - Status/完了
   - Rails
   - Security
 ---
-
 # RailsのCookie操作とセキュリティ署名
 ## 💡 学んだこと・解決した課題
-RailsにおけるCookieの基本的な読み書き方法と、セキュリティリスクを防ぐための「署名付き（Signed）」や「暗号化（Encrypted）」Cookieの使い分けについて。
+- RailsにおけるCookieの基本的な読み書き方法と、セキュリティリスクを防ぐための「署名付き（Signed）」や「暗号化（Encrypted）」Cookieの使い分けについて。
 ## 📝 詳細・原因
 * **基本:** RailsのCookieは`ActionController::Cookies`経由で操作する。値は基本的にString型。
 * **リスク:** 通常のCookieはユーザー側で中身を見たり**改ざん**したりできるため、認証情報などをそのまま保存するのは危険。
@@ -63,3 +62,5 @@ cookies.delete(:name, domain: 'domain.com')
 ## 🔗 参考リンク
 - https://api.rubyonrails.org/v7.2/classes/ActionDispatch/Cookies.html
 ## 💭 感想・次への課題
+- cookieを使う時は基本的に「cookies.signed」で良さそう
+- permanentで期限を20年にしても、ブラウザのせいか、1年とちょっとの期限になるっぽい
