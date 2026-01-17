@@ -2,5 +2,7 @@
   "obsidian-git",
   "calendar",
   "table-editor-obsidian",
-  "waypoint"
+  "waypoint",
+  "dataview",
+  "heatmap-calendar"
 ]
