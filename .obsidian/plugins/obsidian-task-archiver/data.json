@@ -16,7 +16,7 @@
   "defaultArchiveFileName": "{{sourceFileName}} (archive)",
   "headings": [
     {
-      "text": "Archived"
+      "text": "既読"
     }
   ],
   "listItems": [],
