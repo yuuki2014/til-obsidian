@@ -61,16 +61,21 @@ services:
 ```bash title:コンテナ停止とボリューム削除
 docker compose down -v
 ```
+- これでDockerの中にあった「ライブラリの保存場所（node_modules）」を完全に消去するため、色々入れ直さないといけない。
 
 ```bash title:コンテナビルドし直し
 docker compose build
+```
+
+```bash title:マイグレーションし直し
+docker compose exec web rails db:migrate
 ```
 
 ```bash title:gemのインストールし直し
 docker compose exec web bundle install
 ```
 
-```bash title:yarnインストールし直し
+```bash title:Javascriptパッケージインストールし直し
 docker compose exec web yarn install
 ```
 ## 🔗 参考リンク
