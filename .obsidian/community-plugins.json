@@ -6,5 +6,6 @@
   "dataview",
   "heatmap-calendar",
   "simple-time-tracker",
-  "completed-tasks"
+  "completed-tasks",
+  "obsidian-task-archiver"
 ]
