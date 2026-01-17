@@ -55,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30_Resources/ReadingList/ReadingList.md",
+                "file": "30_Resources/ReadingList.md",
                 "mode": "source",
                 "source": false
               },
@@ -197,7 +197,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30_Resources/ReadingList/ReadingList.md",
+                "file": "30_Resources/ReadingList.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -247,10 +247,10 @@
       "completed-task-display:Task Hider": false
     }
   },
-  "active": "d380b1b8ba4c98e3",
+  "active": "d9d9fef58579aebb",
   "lastOpenFiles": [
-    "30_Resources/ReadingList.md",
     "30_Resources/ReadingList/ReadingList.md",
+    "30_Resources/ReadingList.md",
     "30_Resources/ReadingList",
     "30_Resources/ReadingList/エンジニアに関する知識を記録・共有するためのサービス.md",
     "Dashboard.md",
