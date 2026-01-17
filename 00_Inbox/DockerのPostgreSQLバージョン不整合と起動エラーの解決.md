@@ -62,5 +62,16 @@ services:
 docker compose down -v
 ```
 
+```bash title:コンテナビルドし直し
+docker compose build
+```
+
+```bash title:gemのインストールし直し
+docker compose exec web bundle install
+```
+
+```bash title:yarnインストールし直し
+docker compose exec web yarn install
+```
 ## 🔗 参考リンク
 ## 💭 感想・次への課題
