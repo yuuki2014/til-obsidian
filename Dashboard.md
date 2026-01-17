@@ -17,7 +17,7 @@ for (let p of pages) {
 dv.header(2, "🔥 現在の総学習時間: " + total + " 時間");
 ```
 
-
+```dataviewjs
 dv.span("**💻 学習ヒートマップ**")
 
 const calendarData = {
@@ -35,3 +35,4 @@ for (let page of dv.pages('"00_Inbox" or "Daily"').where(p => p.study_hours)) {
 }
 
 renderHeatmapCalendar(this.container, calendarData)
+```
