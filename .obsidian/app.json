@@ -1,3 +1,6 @@
 {
-  "showLineNumber": true
+  "showLineNumber": true,
+  "newFileLocation": "folder",
+  "attachmentFolderPath": "./",
+  "newFileFolderPath": "00_Inbox"
 }
