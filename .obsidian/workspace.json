@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30_Resources/ReadingList.md",
+                "file": "30_Resources/ReadingList/ReadingList.md",
                 "mode": "source",
                 "source": false
               },
@@ -211,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30_Resources/ReadingList.md",
+                "file": "30_Resources/ReadingList/ReadingList.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -262,8 +262,10 @@
   },
   "active": "bad1acff57dfffcf",
   "lastOpenFiles": [
-    "99_System/Templates/Daily Note.md",
     "30_Resources/ReadingList.md",
+    "30_Resources/ReadingList/ReadingList.md",
+    "30_Resources/ReadingList",
+    "99_System/Templates/Daily Note.md",
     "30_Resources",
     "Dashboard.md",
     "01_Daily/2026-01-17.md",
@@ -282,7 +284,6 @@
     "10_TIL/Ruby",
     "99_System",
     "20_Projects",
-    "10_TIL",
     "Welcome.md"
   ]
 }
