@@ -293,7 +293,15 @@
   "linterLocale": "system-default",
   "logLevel": "ERROR",
   "lintCommands": [],
-  "customRegexes": [],
+  "customRegexes": [
+    {
+      "label": "リストの空行埋め",
+      "find": "\\n{2,}- \\[ \\]",
+      "replace": "\\n- [ ]",
+      "flags": "gm",
+      "enabled": true
+    }
+  ],
   "commonStyles": {
     "aliasArrayStyle": "single-line",
     "tagArrayStyle": "single-line",
