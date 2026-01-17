@@ -82,3 +82,5 @@ docker compose exec web yarn install
 ## 🔗 参考リンク
 https://qiita.com/jojo__xxxxx/items/325a9ae66290066ee8cc
 ## 💭 感想・次への課題
+- ログを見ればすぐにわかることだったので、ログをしっかり読むこと
+- 本番環境のpostgresqlのバージョンと開発環境を合わせるようにしておく
