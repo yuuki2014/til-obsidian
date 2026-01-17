@@ -9,7 +9,7 @@ tags:
 ## 💡 学んだこと・解決した課題
 - 昨日まで起動していたウェブアプリをローカルで起動したらエラーで起動せず
 ## 📝 詳細・原因
-```bash tit:index.js
+```bash title:エラーログ
 % docker compose logs db
 db-1  | Error: in 18+, these Docker images are configured to store database data in a
 db-1  |        format which is compatible with "pg_ctlcluster" (specifically, using
@@ -33,6 +33,7 @@ db-1  | 
 db-1  |        See https://github.com/docker-library/postgres/issues/37 for a (long)
 db-1  |        discussion around this process, and suggestions for how to do so.
 ```
+- ログを見てわかるように、postgresqlが18以上になってDockerイメージの保存場所の指定方法が変わりました。
 ## 💻 解決策・コード
 ```ruby
 
