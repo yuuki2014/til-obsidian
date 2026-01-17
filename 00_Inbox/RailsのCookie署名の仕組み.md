@@ -27,6 +27,39 @@ cookies[:lat_lon] = JSON.generate([47.68, -122.37])
 puts cookies[:user_name] # => "david"
 ```
 
+### 2.セキュリティ（署名と暗号化）
+```ruby
+# 【署名付き】 改ざん防止 (ユーザーIDなど)
+# ユーザーは値を見れるが、変更すると無効になる
+cookies.signed[:user_id] = current_user.id
+# 読み出し
+cookies.signed[:user_id] 
 
+# 【暗号化】 完全隠蔽 (割引コード、一時的な認証トークンなど)
+# ユーザーは値を見ることも変更することもできない
+cookies.encrypted[:discount] = 45
+# 読み出し
+cookies.encrypted[:discount]
+
+# 【期限付き・永続化】
+cookies.permanent[:login] = "XJ-122" # 20年有効
+cookies.signed.permanent[:login] = "XJ-122" # チェーンも可能
+```
+### 3. オプション設定と削除
+削除時の注意点：書き込み時に `:domain` を指定した場合、**削除時にも同じドメインを指定しないと消えない**。
+```ruby
+# オプション付きで書き込み
+cookies[:name] = {
+  value: 'cookie value',
+  expires: 1.hour,       # 期限
+  domain: 'domain.com',  # ドメイン指定
+  secure: true,          # HTTPSのみ
+  httponly: true         # JavaScriptからアクセス不可 (XSS対策)
+}
+
+# 削除 (ドメイン指定がある場合は必須！)
+cookies.delete(:name, domain: 'domain.com')
+```
 ## 🔗 参考リンク
+- https://api.rubyonrails.org/v7.2/classes/ActionDispatch/Cookies.html
 ## 💭 感想・次への課題
