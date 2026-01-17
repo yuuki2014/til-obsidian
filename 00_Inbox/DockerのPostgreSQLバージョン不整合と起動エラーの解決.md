@@ -8,6 +8,7 @@ tags:
 
 ## 💡 学んだこと・解決した課題
 - 昨日まで起動していたウェブアプリをローカルで起動したらエラーで起動せず
+- `docker compose up` をすると、DB コンテナだけエラーで落ちる状態
 ## 📝 詳細・原因
 ```bash title:エラーログ
 % docker compose logs db
@@ -56,6 +57,10 @@ services:
 - `image: postgres:18` バージョンを指定しておくことで、次回バージョンアップ時でも起動できるようにしておく
 - `POSTGRES_DB: myapp_development` 起動時に自動でこの名前のDBを作成
 - `postgresql_data:/var/lib/postgresql` バージョン18に合わせた場所指定
+
+```bash title:コンテナ停止とボリューム削除
+docker compose down -v
+```
 
 ## 🔗 参考リンク
 ## 💭 感想・次への課題
