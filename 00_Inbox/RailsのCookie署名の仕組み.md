@@ -6,8 +6,8 @@ tags:
 ---
 
 # RailsのCookie署名の仕組み
-
 ## 💡 学んだこと・解決した課題
+- RailsのCokkie
 ## 📝 詳細・原因
 ## 💻 解決策・コード
 ```ruby
