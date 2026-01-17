@@ -33,7 +33,7 @@ db-1  | 
 db-1  |        See https://github.com/docker-library/postgres/issues/37 for a (long)
 db-1  |        discussion around this process, and suggestions for how to do so.
 ```
-- ログを見てわかるように、postgresqlが18以上になってDockerイメージの保存場所の指定方法が変わっているので変更してくれと出てくる
+- ログを見てわかるように、postgresqlが18以上になってDockerイメージの指定場所が変わっているので変更してくれと出てくる
 ## 💻 解決策・コード
 ```diff title:compose.yaml
 services:
@@ -53,7 +53,9 @@ services:
 		healthcheck:
 			test: ["CMD-SHELL", "pg_isready -d myapp_development -U postgres"]
 ```
-
+- `image: postgres:18` バージョンを指定しておくことで、次回バージョンアップ時でも起動できるようにしておく
+- `POSTGRES_DB: myapp_development` 起動時に自動でこの名前のDBを作成
+- `postgresql_data:/var/lib/postgresql` バージョン18に合わせた場所指定
 
 ## 🔗 参考リンク
 ## 💭 感想・次への課題
