@@ -33,10 +33,25 @@ db-1  | 
 db-1  |        See https://github.com/docker-library/postgres/issues/37 for a (long)
 db-1  |        discussion around this process, and suggestions for how to do so.
 ```
-- ログを見てわかるように、postgresqlが18以上になってDockerイメージの保存場所の指定方法が変わりました。
+- ログを見てわかるように、postgresqlが18以上になってDockerイメージの保存場所の指定方法が変わっているので変更してくれと出てくる
 ## 💻 解決策・コード
-```ruby
-
+```diff title:compose.yaml
+services:
+	db:
+-		image: postgres
++		image: postgres:18
+		restart: always
+		environment:
+			TZ: Asia/Tokyo
+			POSTGRES_PASSWORD: password
++			POSTGRES_DB: myapp_development
+		volumes:
+-			- postgresql_data:/var/lib/postgresql/data
++			- postgresql_data:/var/lib/postgresql
+		ports:
+			- 5432:5432
+		healthcheck:
+			test: ["CMD-SHELL", "pg_isready -d myapp_development -U postgres"]
 ```
 
 
