@@ -11,10 +11,14 @@
             "id": "e485b5876b47dd19",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "99_System/Templates/TIL基本フォーマット.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新規タブ"
+              "title": "TIL基本フォーマット"
             }
           }
         ]
@@ -201,6 +205,15 @@
   "active": "e485b5876b47dd19",
   "lastOpenFiles": [
     "test.rb.md",
+    "99_System/Templates/TIL基本フォーマット.md",
+    "99_System/Templates",
+    "10_TIL/JavaScript",
+    "10_TIL/Docker",
+    "10_TIL/Ruby",
+    "99_System",
+    "20_Projects",
+    "10_TIL",
+    "00_Inbox",
     "Welcome.md"
   ]
 }
