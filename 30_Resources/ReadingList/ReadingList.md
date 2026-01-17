@@ -1,7 +1,3 @@
-- [ ] [はちま起稿](http://blog.esuteru.com/)
-
-- [x] [はちま起稿](http://blog.esuteru.com/)
-
-- [ ] [はちま起稿](http://blog.esuteru.com/)
-
-- [ ] [はちま起稿](http://blog.esuteru.com/)
+- [ ] [エンジニアに関する知識を記録・共有するためのサービス](https://qiita.com/)
+- [ ] [エンジニアに関する知識を記録・共有するためのサービス](https://qiita.com/)
+- [x] [エンジニアに関する知識を記録・共有するためのサービス](https://qiita.com/)

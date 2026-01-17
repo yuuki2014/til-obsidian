@@ -2,7 +2,7 @@
 
 # 未読
 - [ ] a
-- [x] a
-- [x] a
 - [ ] [はちま起稿](http://blog.esuteru.com/)
+- [ ] a
+- [ ] a
 # 既読
