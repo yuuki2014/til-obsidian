@@ -1,3 +1,5 @@
+- [ ] [コンピュータサイエンスの教授だけど「コーディング」について質問ある？ | Tech Support | WIRED Japan](https://www.youtube.com/watch?v=AFu7jzI0ExY)
+
 - [ ] [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills)
 - [ ] [ペアプログラミングして気がついた新人プログラマの成長を阻害する悪習](https://qiita.com/hirokidaichi/items/27c757d92b6915e8ecf7)
 - [ ] [VS Code（Cursor）で現在開いているタブを一目で分かるようにする方法](https://qiita.com/yosei_ikegami/items/baf3f6ba7467d0db6f7e)
