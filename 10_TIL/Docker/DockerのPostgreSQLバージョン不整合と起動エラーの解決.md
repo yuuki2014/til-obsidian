@@ -2,7 +2,9 @@
 date: 2026-01-17 21:45
 tags:
   - TIL
-  - Status/書きかけ
+  - Status/完了
+  - docker
+  - postgresql
 ---
 # DockerのPostgreSQLバージョン不整合と起動エラーの解決
 
