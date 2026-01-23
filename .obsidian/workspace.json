@@ -27,16 +27,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_Inbox/改行除外バリデーション.md",
+                "file": "99_System/Templates/Daily Note.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "改行除外バリデーション"
+              "title": "Daily Note"
+            }
+          },
+          {
+            "id": "691ae08aaf93fab6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00_Inbox/無題のファイル.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "無題のファイル"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -109,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00_Inbox/改行除外バリデーション.md",
+                "file": "00_Inbox/無題のファイル.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "改行除外バリデーションへのバックリンク"
+              "title": "無題のファイルへのバックリンク"
             }
           },
           {
@@ -170,13 +184,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00_Inbox/改行除外バリデーション.md",
+                "file": "00_Inbox/無題のファイル.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "改行除外バリデーションのアウトライン"
+              "title": "無題のファイルのアウトライン"
             }
           },
           {
@@ -221,23 +235,24 @@
       "completed-task-display:Task Hider": false
     }
   },
-  "active": "131a228a72187d87",
+  "active": "691ae08aaf93fab6",
   "lastOpenFiles": [
+    "99_System/Templates/Daily Note.md",
+    "00_Inbox/無題のファイル.md",
+    "99_System/Templates/TIL基本フォーマット.md",
+    "10_TIL/10_TIL.md",
+    "10_TIL/Rails/改行除外バリデーション.md",
     "10_TIL/Rails/RailsのCookie署名の仕組み.md",
-    "00_Inbox/改行除外バリデーション.md",
     "01_Daily/2026-01-18.md",
     "10_TIL/Docker/DockerのPostgreSQLバージョン不整合と起動エラーの解決.md",
     "20_Projects/しろいちず.md",
     "00_Inbox/しろいちず.md",
     "20_Projects/20_Projects.md",
     "README.md",
-    "10_TIL/10_TIL.md",
     "20_Projects/しろいちず",
     "01_Daily/2026-01-17.md",
     "Dashboard.md",
-    "99_System/Templates/Daily Note.md",
     "30_Resources/ReadingList.md",
-    "99_System/Templates/TIL基本フォーマット.md",
     "30_Resources/ReadingList/ReadingList.md",
     "30_Resources/ReadingList",
     "30_Resources/ReadingList/エンジニアに関する知識を記録・共有するためのサービス.md",
