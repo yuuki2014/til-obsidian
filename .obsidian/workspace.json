@@ -48,9 +48,33 @@
               "icon": "lucide-file",
               "title": "テーブルのカラムのリネーム方法"
             }
+          },
+          {
+            "id": "443cbf9375661299",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "リリースノート 1.11.7"
+            }
+          },
+          {
+            "id": "d936e2439eec4bda",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "リリースノート 1.12.7"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -223,19 +247,18 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:新規ベースを作成": false,
       "switcher:クイックスイッチャーを開く": false,
       "graph:グラフビューを開く": false,
       "canvas:新規キャンバスを作成": false,
       "daily-notes:今日のデイリーノートを開く": false,
       "templates:テンプレートを挿入": false,
       "command-palette:コマンドパレットを開く": false,
-      "bases:Create new base": false,
       "obsidian-git:Open Git source control": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "completed-task-display:Task Hider": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "691ae08aaf93fab6",
+  "active": "d936e2439eec4bda",
   "lastOpenFiles": [
     "10_TIL/Rails/改行除外バリデーション.md",
     "10_TIL/Rails/RailsのCookie署名の仕組み.md",
